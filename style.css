@@ -20,8 +20,8 @@ body {
 
 nav ul {
     list-style: none;
-    display: flex;
-    justify-content: space-around;
+    display:contents;
+    justify-content:flex-start;
     text-decoration: wavy;
 
     
