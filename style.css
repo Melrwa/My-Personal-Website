@@ -10,12 +10,13 @@ body {
 }
 #banner{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSxKXrZ-Z2XnWVJdwiJkyyrR-16tBXvxY8VA&s);
-    height: 300px; 
+    height:auto; 
     background-repeat: no-repeat; 
     background-size: cover; 
-    height: 300px;
+    height:auto;
     background-position:top;
 }
+
 
 nav ul {
     list-style: none;
@@ -181,12 +182,5 @@ nav ul {
     width: 100%; 
     background-color: black; 
 }
-@media only screen and (max-width: 600px) {
-    body {
-      font-size: 14px;
-    }
-    .container {
-      padding: 10px;
-    }
-  }
+
 
