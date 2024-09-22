@@ -1,0 +1,193 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+    line-height: 1.2;
+    background-color:rgb(54, 69, 79);
+    color: #fff;
+    
+}
+#banner{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSxKXrZ-Z2XnWVJdwiJkyyrR-16tBXvxY8VA&s);
+    height: 300px; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 300px;
+    background-position: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: wavy;
+
+    
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font: weight 200px;
+    background-color: white;
+    margin: 0 0 0 auto;
+    border-radius: 15px;
+    font-stretch: expanded;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #007BFF;
+}
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+.section h1 {
+
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+.section ul li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+#about.section p{
+    text-align:center;
+
+}
+.project {
+    margin-bottom: 2rem;
+}
+.project h2 {
+    color: whitesmoke;
+}
+.project p {
+    font-size: 1rem;
+}
+.project a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.project a:hover {
+    text-decoration: underline;
+}
+#resume{
+    color: #007BFF;
+
+}
+#resume a:hover{
+    text-decoration: underline;
+    color: #61dafb;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+}
+form button {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #007BFF;
+}
+footer {
+    text-align: center;
+    background-color:rgb(16, 19, 19);
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#skills {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(54, 69, 79);
+}
+#skills h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: black;
+}
+.skills-container {
+    display: flex;            
+    justify-content: center;   
+    flex-wrap: wrap;           
+    gap: 1rem;                 
+}
+.skill-box {
+    width: 150px;             
+    height: 150px;             
+    display: flex;
+    align-items: center;       
+    justify-content: center;  
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase; 
+    border-radius: 10px;       
+}
+.skill-html {
+    background-color: #e34c26; 
+}
+.skill-js {
+    background-color: #f7df1e; 
+    color: #000;               
+}
+.skill-python {
+    background-color: #306998; 
+}
+.skill-node {
+    background-color: #68a063; 
+}
+.skill-react {
+    background-color: #61dafb; 
+    color: #000;               
+}
+.skill-css {
+    background-color: #264de4; /* CSS (Blue) */
+}
+.skill-git {
+    background-color: #f05032; 
+}
+.skill-business {
+    background-color: #ff8c00; 
+}
+.skill-project {
+    background-color: #4b0082; 
+}
+.skill-marketing {
+    background-color: #ff4500; 
+}
+#information ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;            
+    justify-content: center;
+    flex-direction: row;
+}
