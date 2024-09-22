@@ -37,6 +37,7 @@ nav ul li a {
     margin: 0 0 0 auto;
     border-radius: 15px;
     font-stretch: expanded;
+    position: inherit;
 }
 nav ul li a:hover {
     text-decoration: underline;
